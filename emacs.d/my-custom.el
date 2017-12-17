@@ -1,7 +1,8 @@
 ;;设置行号
 ;; linum.el
-(load "~/emacs.d/linum.el")
-(global-linum-mode t)
+;;(load "~/emacs.d/linum.el")
+;;(global-linum-mode t)
+
 
 ;;默认竖向分割窗口
 ;;(setq split-height-threshold nil)

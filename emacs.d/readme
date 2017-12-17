@@ -1,2 +1,10 @@
-https://github.com/purcell/emacs.d
+windows版，
+%appdata%中新增.emacs，内容：
+(load "E:/github/emacs/.emacs")
+修改.emacs内容，指向当前的emacs路径
+
+git bash到当前的emacs家目录，git clone https://github.com/purcell/emacs.d.git .emacs.d
+如果之前下载过，mv到当前目录，使用git pull 更新
+
+帮助：
 http://blog.csdn.net/redguardtoo/article/details/7222501/
